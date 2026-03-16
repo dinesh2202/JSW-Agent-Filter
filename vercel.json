@@ -1,7 +1,7 @@
 {
- "functions": {
-   "api/*.py": {
-     "runtime": "python3.9"
-   }
- }
+  "functions": {
+    "api/filter.py": {
+      "runtime": "python3.11"
+    }
+  }
 }
