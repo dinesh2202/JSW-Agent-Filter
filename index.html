@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Agent Filter Tool</title>
+</head>
+<body>
+
+<h2>Upload Files</h2>
+
+<form action="/api/filter" method="post" enctype="multipart/form-data">
+
+Agent List File:
+<input type="file" name="agent_file"><br><br>
+
+Login Data File:
+<input type="file" name="login_file"><br><br>
+
+<button type="submit">Generate Excel</button>
+
+</form>
+
+</body>
+</html>
